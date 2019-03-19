@@ -1,0 +1,473 @@
+<html>
+<head>
+<meta name="viewport" content="initial-scale=1.0, user-scalable=no" />
+<meta http-equiv="content-type" content="text/html; charset=UTF-8"/>
+<title>Google Maps - pygmaps </title>
+<script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?libraries=visualization&sensor=true_or_false"></script>
+<script type="text/javascript">
+	function initialize() {
+		var centerlatlng = new google.maps.LatLng(35.261995, -80.841155);
+		var myOptions = {
+			zoom: 17,
+			center: centerlatlng,
+			mapTypeId: google.maps.MapTypeId.ROADMAP
+		};
+		var map = new google.maps.Map(document.getElementById("map_canvas"), myOptions);
+
+		var latlng = new google.maps.LatLng(35.261995, -80.841155);
+		var img = new google.maps.MarkerImage('http://www.googlemapsmarkers.com/v1/FF0000/');
+		var marker = new google.maps.Marker({
+		title: "Event number 0",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(35.281247, -80.784843);
+		var img = new google.maps.MarkerImage('http://www.googlemapsmarkers.com/v1/fc0808/');
+		var marker = new google.maps.Marker({
+		title: "Event number 1",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(35.319500, -80.712138);
+		var img = new google.maps.MarkerImage('http://www.googlemapsmarkers.com/v1/fa0f0f/');
+		var marker = new google.maps.Marker({
+		title: "Event number 2",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(35.260200, -80.665168);
+		var img = new google.maps.MarkerImage('http://www.googlemapsmarkers.com/v1/f81717/');
+		var marker = new google.maps.Marker({
+		title: "Event number 3",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(35.118764, -80.698294);
+		var img = new google.maps.MarkerImage('http://www.googlemapsmarkers.com/v1/f51e1e/');
+		var marker = new google.maps.Marker({
+		title: "Event number 4",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(35.112496, -80.725695);
+		var img = new google.maps.MarkerImage('http://www.googlemapsmarkers.com/v1/f32626/');
+		var marker = new google.maps.Marker({
+		title: "Event number 5",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(35.098891, -80.781267);
+		var img = new google.maps.MarkerImage('http://www.googlemapsmarkers.com/v1/f12d2d/');
+		var marker = new google.maps.Marker({
+		title: "Event number 6",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(35.096905, -80.786336);
+		var img = new google.maps.MarkerImage('http://www.googlemapsmarkers.com/v1/ef3434/');
+		var marker = new google.maps.Marker({
+		title: "Event number 7",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(35.101848, -80.931459);
+		var img = new google.maps.MarkerImage('http://www.googlemapsmarkers.com/v1/ee3b3b/');
+		var marker = new google.maps.Marker({
+		title: "Event number 8",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(35.115212, -80.959226);
+		var img = new google.maps.MarkerImage('http://www.googlemapsmarkers.com/v1/ec4242/');
+		var marker = new google.maps.Marker({
+		title: "Event number 9",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(35.083710, -80.933608);
+		var img = new google.maps.MarkerImage('http://www.googlemapsmarkers.com/v1/ea4949/');
+		var marker = new google.maps.Marker({
+		title: "Event number 10",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(35.070456, -80.935748);
+		var img = new google.maps.MarkerImage('http://www.googlemapsmarkers.com/v1/e94f4f/');
+		var marker = new google.maps.Marker({
+		title: "Event number 11",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(35.059219, -80.939507);
+		var img = new google.maps.MarkerImage('http://www.googlemapsmarkers.com/v1/e75656/');
+		var marker = new google.maps.Marker({
+		title: "Event number 12",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(35.059197, -80.939321);
+		var img = new google.maps.MarkerImage('http://www.googlemapsmarkers.com/v1/e65d5d/');
+		var marker = new google.maps.Marker({
+		title: "Event number 13",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(35.059258, -80.939437);
+		var img = new google.maps.MarkerImage('http://www.googlemapsmarkers.com/v1/e56363/');
+		var marker = new google.maps.Marker({
+		title: "Event number 14",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(35.059204, -80.939446);
+		var img = new google.maps.MarkerImage('http://www.googlemapsmarkers.com/v1/e46969/');
+		var marker = new google.maps.Marker({
+		title: "Event number 15",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(35.059184, -80.939432);
+		var img = new google.maps.MarkerImage('http://www.googlemapsmarkers.com/v1/e36f6f/');
+		var marker = new google.maps.Marker({
+		title: "Event number 16",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(35.059172, -80.939440);
+		var img = new google.maps.MarkerImage('http://www.googlemapsmarkers.com/v1/e27575/');
+		var marker = new google.maps.Marker({
+		title: "Event number 17",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(35.059103, -80.939483);
+		var img = new google.maps.MarkerImage('http://www.googlemapsmarkers.com/v1/e17b7b/');
+		var marker = new google.maps.Marker({
+		title: "Event number 18",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(35.059119, -80.939459);
+		var img = new google.maps.MarkerImage('http://www.googlemapsmarkers.com/v1/e18181/');
+		var marker = new google.maps.Marker({
+		title: "Event number 19",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(35.059206, -80.939446);
+		var img = new google.maps.MarkerImage('http://www.googlemapsmarkers.com/v1/e08787/');
+		var marker = new google.maps.Marker({
+		title: "Event number 20",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(35.059187, -80.939329);
+		var img = new google.maps.MarkerImage('http://www.googlemapsmarkers.com/v1/e08d8d/');
+		var marker = new google.maps.Marker({
+		title: "Event number 21",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(35.059384, -80.939465);
+		var img = new google.maps.MarkerImage('http://www.googlemapsmarkers.com/v1/df9292/');
+		var marker = new google.maps.Marker({
+		title: "Event number 22",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(35.059238, -80.939445);
+		var img = new google.maps.MarkerImage('http://www.googlemapsmarkers.com/v1/df9797/');
+		var marker = new google.maps.Marker({
+		title: "Event number 23",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(35.059230, -80.939374);
+		var img = new google.maps.MarkerImage('http://www.googlemapsmarkers.com/v1/df9d9d/');
+		var marker = new google.maps.Marker({
+		title: "Event number 24",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(35.058875, -80.939117);
+		var img = new google.maps.MarkerImage('http://www.googlemapsmarkers.com/v1/dfa2a2/');
+		var marker = new google.maps.Marker({
+		title: "Event number 25",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(35.059163, -80.939341);
+		var img = new google.maps.MarkerImage('http://www.googlemapsmarkers.com/v1/dfa7a7/');
+		var marker = new google.maps.Marker({
+		title: "Event number 26",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(35.059182, -80.939349);
+		var img = new google.maps.MarkerImage('http://www.googlemapsmarkers.com/v1/dfacac/');
+		var marker = new google.maps.Marker({
+		title: "Event number 27",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(35.059183, -80.939522);
+		var img = new google.maps.MarkerImage('http://www.googlemapsmarkers.com/v1/e0b1b1/');
+		var marker = new google.maps.Marker({
+		title: "Event number 28",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(35.059178, -80.939347);
+		var img = new google.maps.MarkerImage('http://www.googlemapsmarkers.com/v1/e0b6b6/');
+		var marker = new google.maps.Marker({
+		title: "Event number 29",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(35.059118, -80.939414);
+		var img = new google.maps.MarkerImage('http://www.googlemapsmarkers.com/v1/e1baba/');
+		var marker = new google.maps.Marker({
+		title: "Event number 30",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(35.059356, -80.939628);
+		var img = new google.maps.MarkerImage('http://www.googlemapsmarkers.com/v1/e1bfbf/');
+		var marker = new google.maps.Marker({
+		title: "Event number 31",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(35.059236, -80.939449);
+		var img = new google.maps.MarkerImage('http://www.googlemapsmarkers.com/v1/e2c3c3/');
+		var marker = new google.maps.Marker({
+		title: "Event number 32",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(35.059225, -80.939409);
+		var img = new google.maps.MarkerImage('http://www.googlemapsmarkers.com/v1/e3c8c8/');
+		var marker = new google.maps.Marker({
+		title: "Event number 33",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(35.059067, -80.939374);
+		var img = new google.maps.MarkerImage('http://www.googlemapsmarkers.com/v1/e4cccc/');
+		var marker = new google.maps.Marker({
+		title: "Event number 34",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(35.059198, -80.939321);
+		var img = new google.maps.MarkerImage('http://www.googlemapsmarkers.com/v1/e5d0d0/');
+		var marker = new google.maps.Marker({
+		title: "Event number 35",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(35.059277, -80.939463);
+		var img = new google.maps.MarkerImage('http://www.googlemapsmarkers.com/v1/e6d4d4/');
+		var marker = new google.maps.Marker({
+		title: "Event number 36",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(35.059173, -80.939304);
+		var img = new google.maps.MarkerImage('http://www.googlemapsmarkers.com/v1/e7d8d8/');
+		var marker = new google.maps.Marker({
+		title: "Event number 37",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(35.059191, -80.939431);
+		var img = new google.maps.MarkerImage('http://www.googlemapsmarkers.com/v1/e9dcdc/');
+		var marker = new google.maps.Marker({
+		title: "Event number 38",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(35.059224, -80.939410);
+		var img = new google.maps.MarkerImage('http://www.googlemapsmarkers.com/v1/eae0e0/');
+		var marker = new google.maps.Marker({
+		title: "Event number 39",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(35.059103, -80.939384);
+		var img = new google.maps.MarkerImage('http://www.googlemapsmarkers.com/v1/ece3e3/');
+		var marker = new google.maps.Marker({
+		title: "Event number 40",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(35.059215, -80.939459);
+		var img = new google.maps.MarkerImage('http://www.googlemapsmarkers.com/v1/eee7e7/');
+		var marker = new google.maps.Marker({
+		title: "Event number 41",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(35.059282, -80.939390);
+		var img = new google.maps.MarkerImage('http://www.googlemapsmarkers.com/v1/efeaea/');
+		var marker = new google.maps.Marker({
+		title: "Event number 42",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(35.059239, -80.939430);
+		var img = new google.maps.MarkerImage('http://www.googlemapsmarkers.com/v1/f1eded/');
+		var marker = new google.maps.Marker({
+		title: "Event number 43",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(35.059347, -80.939348);
+		var img = new google.maps.MarkerImage('http://www.googlemapsmarkers.com/v1/f3f1f1/');
+		var marker = new google.maps.Marker({
+		title: "Event number 44",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(35.059106, -80.939374);
+		var img = new google.maps.MarkerImage('http://www.googlemapsmarkers.com/v1/f5f4f4/');
+		var marker = new google.maps.Marker({
+		title: "Event number 45",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(35.059153, -80.939377);
+		var img = new google.maps.MarkerImage('http://www.googlemapsmarkers.com/v1/f8f7f7/');
+		var marker = new google.maps.Marker({
+		title: "Event number 46",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(35.059224, -80.939291);
+		var img = new google.maps.MarkerImage('http://www.googlemapsmarkers.com/v1/fafafa/');
+		var marker = new google.maps.Marker({
+		title: "Event number 47",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(35.059169, -80.939284);
+		var img = new google.maps.MarkerImage('http://www.googlemapsmarkers.com/v1/fcfcfc/');
+		var marker = new google.maps.Marker({
+		title: "Event number 48",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(35.059078, -80.939377);
+		var img = new google.maps.MarkerImage('http://www.googlemapsmarkers.com/v1/FFFFFF/');
+		var marker = new google.maps.Marker({
+		title: "Event number 49",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+	}
+</script>
+</head>
+<body style="margin:0px; padding:0px;" onload="initialize()">
+	<div id="map_canvas" style="width: 100%; height: 100%;"></div>
+</body>
+</html>

@@ -1,0 +1,253 @@
+XY QA API STATUS TEST
+LOG DATE: 2017-10-27
+API STAGE: BETAAPI
+API VERSION: 2.2
+======================
+ABOUT_GET status is: 200  
+ACCOUNT_READ status is: 200  
+ACCOUNT_SIGNIN status is: 200  
+ACCOUNT_UPDATE status is: 200  
+ACCOUNT_ADD status is: Skipped
+ACCOUNT_RESET status is: 200  
+ACCOUNT_VERIFY status is: 200  
+ACCOUNT_SENDVERIFICATION status is: 200  
+ACCOUNT_PUSH status is: 200  
+ACCOUNT_ADDTOKEN status is: 200  
+BEACON_READ status is: 200  
+BEACON_SYNC status is: 200  
+BEACON_PUSH status is: Skipped
+BEACONSUBSCRIPTIONS_READ status is: 200  
+BEACONEVENT_READ status is: 200  
+BEACONEVENT_ADD status is: 200  
+CONFIG_READ status is: 200  
+CONFIG_UPDATE status is: 200  
+CONFIG_RESET status is: 200  
+ERROR_READ status is: 200  
+IFTTT_TRIGGERS status is: 200  
+ZAPIER_TRIGGERS status is: 200  
+======================
+All API calls complete
+
+
+
+XY QA API STATUS TEST
+LOG DATE: 2017-10-27
+API STAGE: BETAAPI
+API VERSION: 2.2
+======================
+ABOUT_GET status is: 200  
+ACCOUNT_READ status is: 200  
+ACCOUNT_SIGNIN status is: 200  
+ACCOUNT_UPDATE status is: 200  
+ACCOUNT_ADD status is: Skipped
+ACCOUNT_RESET status is: 200  
+ACCOUNT_VERIFY status is: 200  
+ACCOUNT_SENDVERIFICATION status is: 200  
+ACCOUNT_PUSH status is: 200  
+ACCOUNT_ADDTOKEN status is: 200  
+BEACON_READ status is: 200  
+BEACON_SYNC status is: URLERROR  
+BEACON_PUSH status is: Skipped
+BEACONSUBSCRIPTIONS_READ status is: 200  
+BEACONEVENT_READ status is: 200  
+BEACONEVENT_ADD status is: 200  
+CONFIG_READ status is: 200  
+CONFIG_UPDATE status is: 200  
+CONFIG_RESET status is: 200  
+ERROR_READ status is: 200  
+IFTTT_TRIGGERS status is: 200  
+ZAPIER_TRIGGERS status is: 200  
+======================
+All API calls complete
+
+
+
+XY QA API STATUS TEST
+LOG DATE: 2017-10-30
+API STAGE: BETAAPI
+API VERSION: 2.2
+======================
+ABOUT_GET status is: 200  
+ACCOUNT_READ status is: 200  
+ACCOUNT_SIGNIN status is: 200  
+ACCOUNT_UPDATE status is: 200  
+ACCOUNT_ADD status is: Skipped
+ACCOUNT_RESET status is: 200  
+ACCOUNT_VERIFY status is: 200  
+ACCOUNT_SENDVERIFICATION status is: 200  
+ACCOUNT_PUSH status is: 200  
+ACCOUNT_ADDTOKEN status is: 200  
+BEACON_READ status is: 200  
+BEACON_SYNC status is: 200  
+BEACON_PUSH status is: Skipped
+BEACONSUBSCRIPTIONS_READ status is: 200  
+BEACONEVENT_READ status is: 200  
+BEACONEVENT_ADD status is: 200  
+CONFIG_READ status is: 200  
+CONFIG_UPDATE status is: 200  
+CONFIG_RESET status is: 200  
+ERROR_READ status is: 200  
+IFTTT_TRIGGERS status is: 200  
+ZAPIER_TRIGGERS status is: 200  
+======================
+All API calls complete
+
+
+
+XY QA API STATUS TEST
+LOG DATE: 2017-10-31
+API STAGE: BETAAPI
+API VERSION: 2.2
+======================
+ABOUT_GET status is: 200  
+ACCOUNT_READ status is: 200  
+ACCOUNT_SIGNIN status is: 200  
+ACCOUNT_UPDATE status is: 200  
+ACCOUNT_ADD status is: Skipped
+ACCOUNT_RESET status is: 200  
+ACCOUNT_VERIFY status is: 200  
+ACCOUNT_SENDVERIFICATION status is: 200  
+ACCOUNT_PUSH status is: 200  
+ACCOUNT_ADDTOKEN status is: 200  
+BEACON_READ status is: 200  
+BEACON_SYNC status is: 200  
+BEACON_PUSH status is: Skipped
+BEACONSUBSCRIPTIONS_READ status is: 200  
+BEACONEVENT_READ status is: 200  
+BEACONEVENT_ADD status is: 200  
+CONFIG_READ status is: 200  
+CONFIG_UPDATE status is: 200  
+CONFIG_RESET status is: 200  
+ERROR_READ status is: 200  
+IFTTT_TRIGGERS status is: 200  
+ZAPIER_TRIGGERS status is: 200  
+======================
+All API calls complete
+
+
+
+XY QA API STATUS TEST
+LOG DATE: 2017-10-31
+API STAGE: API
+API VERSION: 2.2
+======================
+ABOUT_GET status is: 200  
+ACCOUNT_READ status is: 200  
+ACCOUNT_SIGNIN status is: 200  
+ACCOUNT_UPDATE status is: 200  
+ACCOUNT_ADD status is: Skipped
+ACCOUNT_RESET status is: 200  
+ACCOUNT_VERIFY status is: 200  
+ACCOUNT_SENDVERIFICATION status is: 200  
+ACCOUNT_PUSH status is: 200  
+ACCOUNT_ADDTOKEN status is: 200  
+BEACON_READ status is: 200  
+BEACON_SYNC status is: 200  
+BEACON_PUSH status is: Skipped
+BEACONSUBSCRIPTIONS_READ status is: 200  
+BEACONEVENT_READ status is: 200  
+BEACONEVENT_ADD status is: 200  
+CONFIG_READ status is: 200  
+CONFIG_UPDATE status is: 200  
+CONFIG_RESET status is: 200  
+ERROR_READ status is: 200  
+IFTTT_TRIGGERS status is: 200  
+ZAPIER_TRIGGERS status is: 200  
+======================
+All API calls complete
+
+
+
+XY QA API STATUS TEST
+LOG DATE: 2017-11-08
+API STAGE: BETAAPI
+API VERSION: 2.2
+======================
+ABOUT_GET status is: 200  
+ACCOUNT_READ status is: 200  
+ACCOUNT_SIGNIN status is: 200  
+ACCOUNT_UPDATE status is: 200  
+ACCOUNT_ADD status is: Skipped
+ACCOUNT_RESET status is: 200  
+ACCOUNT_VERIFY status is: 200  
+ACCOUNT_SENDVERIFICATION status is: 200  
+ACCOUNT_PUSH status is: 200  
+ACCOUNT_ADDTOKEN status is: 200  
+BEACON_READ status is: 200  
+BEACON_SYNC status is: 200  
+BEACONSUBSCRIPTIONS_READ status is: 200  
+BEACONEVENT_READ status is: 200  
+BEACONEVENT_ADD status is: 200  
+CONFIG_READ status is: 200  
+CONFIG_UPDATE status is: 200  
+CONFIG_RESET status is: 200  
+ERROR_READ status is: 200  
+IFTTT_TRIGGERS status is: 200  
+ZAPIER_TRIGGERS status is: 200  
+======================
+All API calls complete
+
+
+
+XY QA API STATUS TEST
+LOG DATE: 2017-11-08
+API STAGE: API
+API VERSION: 2.2
+======================
+ABOUT_GET status is: 200  
+ACCOUNT_READ status is: 200  
+ACCOUNT_SIGNIN status is: 200  
+ACCOUNT_UPDATE status is: 200  
+ACCOUNT_ADD status is: Skipped
+ACCOUNT_RESET status is: 200  
+ACCOUNT_VERIFY status is: 200  
+ACCOUNT_SENDVERIFICATION status is: 200  
+ACCOUNT_PUSH status is: 200  
+ACCOUNT_ADDTOKEN status is: 200  
+BEACON_READ status is: 200  
+BEACON_SYNC status is: 200  
+BEACONSUBSCRIPTIONS_READ status is: 200  
+BEACONEVENT_READ status is: 200  
+BEACONEVENT_ADD status is: 200  
+CONFIG_READ status is: 200  
+CONFIG_UPDATE status is: 200  
+CONFIG_RESET status is: 200  
+ERROR_READ status is: 200  
+IFTTT_TRIGGERS status is: 200  
+ZAPIER_TRIGGERS status is: 200  
+======================
+All API calls complete
+
+
+
+XY QA API STATUS TEST
+LOG DATE: 2017-11-10
+API STAGE: API
+API VERSION: 2.2
+======================
+ABOUT_GET status is: 200  
+ACCOUNT_READ status is: 200  
+ACCOUNT_SIGNIN status is: 200  
+ACCOUNT_UPDATE status is: 200  
+ACCOUNT_ADD status is: Skipped
+ACCOUNT_RESET status is: 200  
+ACCOUNT_VERIFY status is: 200  
+ACCOUNT_SENDVERIFICATION status is: 200  
+ACCOUNT_PUSH status is: 200  
+ACCOUNT_ADDTOKEN status is: 200  
+BEACON_READ status is: 200  
+BEACON_SYNC status is: 200  
+BEACONSUBSCRIPTIONS_READ status is: 200  
+BEACONEVENT_READ status is: 200  
+BEACONEVENT_ADD status is: 200  
+CONFIG_READ status is: 200  
+CONFIG_UPDATE status is: 200  
+CONFIG_RESET status is: 200  
+ERROR_READ status is: 200  
+IFTTT_TRIGGERS status is: 200  
+ZAPIER_TRIGGERS status is: 200  
+======================
+All API calls complete
+
+
+
